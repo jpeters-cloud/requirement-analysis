@@ -51,3 +51,31 @@ Requirement Analysis consists of several structured activities that help gather 
 
 - **Requirement Validation:**  
   This step ensures that the documented requirements accurately reflect stakeholder needs. It involves reviews, walkthroughs, and approval from stakeholders to confirm the requirements are correct and achievable.
+
+## Types of Requirements
+
+In software engineering, requirements are broadly categorized into two types: **Functional Requirements** and **Non-functional Requirements**. Both are crucial for the successful development and operation of a system.
+
+### Functional Requirements
+
+Functional requirements specify the behaviors and functions that a system must possess. They define what the system should do and outline its core functionalities.
+
+**Examples for a Hotel Booking Management System:**
+
+- **User Registration and Authentication:** Users should be able to create accounts and log in securely.
+- **Search Functionality:** Users can search for hotels based on location, availability, price range, and amenities.
+- **Booking Management:** Users can book rooms, view booking details, modify reservations, and cancel bookings.
+- **Payment Processing:** The system should handle payments through various methods such as credit cards, debit cards, and digital wallets.
+- **Hotel Management Portal:** Hotel owners can add or update hotel details, manage room availability, and view booking statistics.
+
+### Non-functional Requirements
+
+Non-functional requirements define the quality attributes, system performance, and constraints under which the system must operate. They focus on how the system performs its functions.
+
+**Examples for a Hotel Booking Management System:**
+
+- **Performance:** The system should handle up to 10,000 concurrent users without performance degradation.
+- **Scalability:** The architecture should support scaling to accommodate increasing numbers of users and data volume.
+- **Security:** All user data must be encrypted in transit and at rest, complying with data protection regulations.
+- **Availability:** The system should have an uptime of 99.9%, ensuring high availability for users.
+- **Usability:** The user interface should be intuitive and accessible, providing a seamless experience across devices.
