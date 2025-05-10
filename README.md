@@ -94,3 +94,26 @@ Use Case Diagrams are a visual representation of the functional interactions bet
 The diagram below illustrates the use cases for a hotel booking management system. It lists the key actors involved and the actions they can perform.
 
 ![Use Case Diagram](./alx-booking-uc.png)
+
+## Acceptance Criteria
+
+Acceptance Criteria are specific, measurable conditions that a software product must meet to be accepted by the user, customer, or other stakeholders. They define the boundaries of a user story or feature and help ensure that all stakeholders have a common understanding of what is expected.
+
+### Importance of Acceptance Criteria in Requirement Analysis:
+
+- **Clarity and Alignment:** They help ensure developers, testers, and stakeholders share the same expectations about the functionality.
+- **Testability:** Each criterion serves as a basis for test cases, helping QA teams verify that the system behaves correctly.
+- **Scope Control:** They define what is included or excluded in a feature, helping to prevent scope creep.
+
+### Example: Acceptance Criteria for the "Checkout" Feature
+
+**Feature:** Checkout Process for Hotel Booking
+
+**Acceptance Criteria:**
+- The user must be able to review booking details before payment.
+- The system must display the total cost including taxes and discounts.
+- The user must be able to enter payment information and choose a payment method.
+- Upon successful payment, a confirmation message with booking ID must be displayed.
+- An email with booking confirmation must be sent to the user's registered email address.
+- If payment fails, the system should notify the user and allow retry or change of payment method.
+
